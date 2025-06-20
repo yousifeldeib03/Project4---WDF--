@@ -1,0 +1,146 @@
+/* SAIT Simple Styles for Tables and Forms */
+
+/* General body styling for readability */
+body {
+  font-family: Arial, sans-serif;
+  background: lightgray;
+  color: #222;
+  margin: 0;
+  padding: 2em;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  margin: 24px auto;
+  width: 340px;
+  font-family: Arial, sans-serif;
+  background: white;
+  box-shadow: 0 2px 10px rgba(25, 24, 64, 0.08);
+}
+
+caption {
+  caption-side: top;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #192040;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+th,
+td {
+  border: 1px solid #b0b0b0;
+  padding: 12px 18px;
+  text-align: left;
+}
+
+thead th {
+  background: #192040;
+  color: #fff;
+  font-weight: 600;
+}
+
+tfoot td {
+  background: #e6eaf2;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Form Styles */
+form {
+  background: white;
+  margin: 24px auto;
+  width: 340px;
+  padding: 1.5em;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+form label {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.6em;
+  border: 1px solid #b0bec5;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-bottom: 0.8em;
+  box-sizing: border-box;
+  background: #f7f9fa;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+form button[type="submit"] {
+  background: #2d5be3;
+  color: #fff;
+  border: none;
+  padding: 0.7em 2em;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+  background: #1a356d;
+}
+a:hover {
+  color: #ffeb3b;
+}
+#Languages {
+  background-color: ivory;
+}
+#Information {
+  background-color: ivory;
+}
+#Profile {
+  background-color: ivory;
+}
+.main-nav {
+  background-color: ivory;
+}
+h1 {
+}
+.main-nav {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+  background: ivory;
+  border-radius: 8px;
+}
+
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 0.7em 1.2em;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  background: #ffeb3b;
+  color: black;
+}
